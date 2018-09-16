@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] bravex
+[INFO] brave-dubbo
+[INFO] brave-tomcat-jdbc
+[INFO] brave-tomcat-jdbc
+[INFO] trace-brave
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
+3/11 KB   6/11 KB   9/11 KB   11/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 KB at 4.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5 KB at 3.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
+3/52 KB   6/52 KB   9/52 KB   11/52 KB   14/52 KB   16/52 KB   19/52 KB   22/52 KB   25/52 KB   27/52 KB   30/52 KB   32/52 KB   36/52 KB   40/52 KB   44/52 KB   48/52 KB   52/52 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar (52 KB at 16.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/io/zipkin/centralsync-maven-plugin/centralsync-maven-plugin/0.1.0/centralsync-maven-plugin-0.1.0.pom
+3/7 KB     5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/io/zipkin/centralsync-maven-plugin/centralsync-maven-plugin/0.1.0/centralsync-maven-plugin-0.1.0.pom (7 KB at 7.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/io/zipkin/centralsync-maven-plugin/centralsync-maven-plugin/0.1.0/centralsync-maven-plugin-0.1.0.jar
+3/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/io/zipkin/centralsync-maven-plugin/centralsync-maven-plugin/0.1.0/centralsync-maven-plugin-0.1.0.jar (9 KB at 7.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/io/takari/maven/0.3.3/maven-0.3.3.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/io/takari/maven/0.3.3/maven-0.3.3.pom (3 KB at 3.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/io/takari/takari/16/takari-16.pom
+3/14 KB   5/14 KB   8/14 KB   11/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.maven.apache.org/maven2/io/takari/takari/16/takari-16.pom (14 KB at 10.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/io/takari/maven/0.3.3/maven-0.3.3.jar
+3/8 KB     5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/io/takari/maven/0.3.3/maven-0.3.3.jar (8 KB at 6.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.3/maven-shade-plugin-2.4.3.pom
+         Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.3/maven-shade-plugin-2.4.3.pom (0 B at 0.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.3/maven-shade-plugin-2.4.3.jar
+         Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/2.4.3/maven-shade-plugin-2.4.3.jar (0 B at 0.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.pom
+         [WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.jar
+         [WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Could not find artifact org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in central (https://repo.maven.apache.org/maven2)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+2/20 KB   5/20 KB   8/20 KB   11/20 KB   13/20 KB   16/20 KB   18/20 KB   20/20 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 KB at 13.1 KB/sec)
+3/14 KB    5/14 KB   8/14 KB   11/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 KB at 3.9 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] bravex ............................................. SKIPPED
+[INFO] brave-dubbo ........................................ SKIPPED
+[INFO] brave-tomcat-jdbc .................................. SKIPPED
+[INFO] brave-tomcat-jdbc .................................. SKIPPED
+[INFO] trace-brave ........................................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.380 s
+[INFO] Finished at: 2018-09-16T22:11:04+08:00
+[INFO] Final Memory: 12M/245M
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'deplendency' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/fengyonggang/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException

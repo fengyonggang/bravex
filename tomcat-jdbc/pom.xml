@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+    <parent>
+        <groupId>com.fengyonggang</groupId>
+        <artifactId>bravex</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+	
+    <artifactId>brave-tomcat-jdbc</artifactId>
+    <packaging>jar</packaging>
+	
+    <name>brave-tomcat-jdbc</name>
+    <url>http://maven.apache.org</url>
+	
+    <properties>
+	<tomcat.version>7.0.54</tomcat.version>
+    </properties>
+	
+    <dependencies>
+        <dependency>
+            <groupId>io.zipkin.brave</groupId>
+            <artifactId>brave-core</artifactId>
+        </dependency>
+        
+        <dependency>
+	    <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+	    <version>${tomcat.version}</version>
+	</dependency>
+    </dependencies>
+</project>
